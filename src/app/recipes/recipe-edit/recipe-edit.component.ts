@@ -46,9 +46,9 @@ export class RecipeEditComponent implements OnInit {
     //   this.recipeForm.value['ingredients']);
 
     if (this.editMode) {
-      this.recipeService.updateRecipe(this.id, {...this.recipeForm.value, 'userCreated': this.authService.user["_value"].id})
+      this.recipeService.updateRecipe(this.id, this.recipeForm.value)
     } else {
-      this.recipeService.addRecipe({...this.recipeForm.value, 'userCreated': this.authService.user["_value"].id});
+      this.recipeService.addRecipe(this.recipeForm.value);
     }
     this.dataStorageService.storeRecipes();
     this.onCancel();
