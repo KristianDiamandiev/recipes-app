@@ -23,6 +23,5 @@ import { ShoppingListComponent } from "./shopping-list.component";
     FormsModule,
     SharedModule
   ],
-  // providers: [LoggingService]
 })
 export class ShoppingListModule {}
