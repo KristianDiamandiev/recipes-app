@@ -74,7 +74,6 @@ export class DataStorageService {
             }
             return ingredientsArray.map(ingredient => {
               return {
-                ingredients: [],
                 ...ingredient,
               };
             });
