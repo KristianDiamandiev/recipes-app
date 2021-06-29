@@ -7,8 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run "npm install" inside this project folder to install all dependencies.
 
 Make sure you use the have Angular CLI.
-Run the below command - only use "sudo" on Mac/ Linux.
-sudo npm install -g @angular/cli
+To install angular CLI run the command (only use "sudo" on Mac/ Linux.) sudo npm install -g @angular/cli
 
 Run "ng serve" to see the app in action (try "npm start" in case "ng serve" fails).
 
