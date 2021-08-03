@@ -9,19 +9,17 @@ import { ShoppingEditComponent } from "./shopping-edit/shopping-edit.component";
 import { ShoppingListComponent } from "./shopping-list.component";
 
 @NgModule({
-  declarations: [
-    ShoppingListComponent,
-    ShoppingEditComponent,
-  ],
+  declarations: [ShoppingListComponent, ShoppingEditComponent],
   imports: [
     RouterModule.forChild([
       {
-        path: '', component: ShoppingListComponent,
+        path: "",
+        component: ShoppingListComponent,
         canActivate: [AuthGuard],
       },
     ]),
     FormsModule,
-    SharedModule
+    SharedModule,
   ],
 })
 export class ShoppingListModule {}

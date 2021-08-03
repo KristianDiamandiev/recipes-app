@@ -10,8 +10,8 @@ import { AuthComponent } from "./auth.component";
   imports: [
     CommonModule,
     FormsModule,
-    RouterModule.forChild([{ path: '', component: AuthComponent}]),
-    SharedModule
-  ]
+    RouterModule.forChild([{ path: "", component: AuthComponent }]),
+    SharedModule,
+  ],
 })
 export class AuthModule {}
